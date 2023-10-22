@@ -1,0 +1,295 @@
+10:18:26 PM: build-image version: 2a79f2b6b97edab3f858983ec4cea00280a2836a (focal)
+10:18:26 PM: buildbot version: 7dd8429028e6fffe1e65d79b0c01bd3eb285899c
+10:18:26 PM: Building without cache
+10:18:26 PM: Starting to prepare the repo for build
+10:18:26 PM: No cached dependencies found. Cloning fresh repo
+10:18:26 PM: git clone --filter=blob:none https://github.com/thalperi/exoclone
+10:18:26 PM: Preparing Git Reference refs/heads/main
+10:18:28 PM: Starting to install dependencies
+10:18:28 PM: Python version set to 3.8
+10:18:28 PM: Attempting Ruby version 2.7.2, read from environment
+10:18:28 PM: Using Ruby version 2.7.2
+10:18:29 PM: Started restoring cached go cache
+10:18:29 PM: Finished restoring cached go cache
+10:18:29 PM: go version go1.19.13 linux/amd64
+10:18:29 PM: Using PHP version 8.0
+10:18:30 PM: Downloading and installing node v18.18.2...
+10:18:30 PM: Downloading https://nodejs.org/dist/v18.18.2/node-v18.18.2-linux-x64.tar.xz...
+10:18:30 PM: Computing checksum with sha256sum
+10:18:31 PM: Checksums matched!
+10:18:33 PM: Now using node v18.18.2 (npm v9.8.1)
+10:18:33 PM: Enabling Node.js Corepack
+10:18:33 PM: Started restoring cached build plugins
+10:18:33 PM: Finished restoring cached build plugins
+10:18:33 PM: Started restoring cached corepack dependencies
+10:18:33 PM: Finished restoring cached corepack dependencies
+10:18:33 PM: No npm workspaces detected
+10:18:33 PM: Started restoring cached node modules
+10:18:33 PM: Finished restoring cached node modules
+10:18:33 PM: Installing npm packages using npm version 9.8.1
+10:18:36 PM: npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+10:18:43 PM: > postinstall
+10:18:43 PM: > nuxt prepare
+10:18:43 PM: [log] Nuxi 3.3.3
+10:18:43 PM: [info] [nuxt:tailwindcss] Using default Tailwind CSS file from runtime/tailwind.css
+10:18:44 PM: [success] Types generated in .nuxt
+10:18:44 PM: added 853 packages, and audited 854 packages in 11s
+10:18:44 PM: 139 packages are looking for funding
+10:18:44 PM:   run `npm fund` for details
+10:18:44 PM: 4 vulnerabilities (2 moderate, 1 high, 1 critical)
+10:18:44 PM: To address all issues, run:
+10:18:44 PM:   npm audit fix
+10:18:44 PM: Run `npm audit` for details.
+10:18:44 PM: npm packages installed
+10:18:44 PM: Install dependencies script success
+10:18:44 PM: Starting build script
+10:18:45 PM: Detected 1 framework(s)
+10:18:45 PM: "nuxt" at version "3.3.3"
+10:18:45 PM: Section completed: initializing
+10:18:47 PM: ​
+10:18:47 PM: Netlify Build                                                 
+10:18:47 PM: ────────────────────────────────────────────────────────────────
+10:18:47 PM: ​
+10:18:47 PM: ❯ Version
+10:18:47 PM:   @netlify/build 29.23.1
+10:18:47 PM: ​
+10:18:47 PM: ❯ Flags
+10:18:47 PM:   baseRelDir: true
+10:18:47 PM:   buildId: 652eec04fd970b6580df57ff
+10:18:47 PM:   deployId: 652eec04fd970b6580df5801
+10:18:47 PM: ​
+10:18:47 PM: ❯ Current directory
+10:18:47 PM:   /opt/build/repo
+10:18:47 PM: ​
+10:18:47 PM: ❯ Config file
+10:18:47 PM:   No config file was defined: using default values.
+10:18:47 PM: ​
+10:18:47 PM: ❯ Context
+10:18:47 PM:   production
+10:18:47 PM: ​
+10:18:47 PM: Build command from Netlify app                                
+10:18:47 PM: ────────────────────────────────────────────────────────────────
+10:18:47 PM: ​
+10:18:47 PM: $ npx prisma generate && npm run build
+10:18:48 PM: Prisma schema loaded from prisma/schema.prisma
+10:18:48 PM: ✔ Generated Prisma Client (v4.12.0) to ./node_modules/@prisma/client in 110ms
+10:18:48 PM: Start using Prisma Client in Node.js (See: https://pris.ly/d/client)
+10:18:48 PM: ```
+import { PrismaClient } from "@prisma/client"
+const prisma = new PrismaClient()
+```
+10:18:48 PM: or start using Prisma Client at the edge (See: https://pris.ly/d/accelerate)
+10:18:48 PM: ```
+import { PrismaClient } from "@prisma/client/edge"
+const prisma = new PrismaClient()
+```
+10:18:48 PM: See other ways of importing Prisma Client: http://pris.ly/d/importing-client
+10:18:48 PM: warn Versions of prisma@5.4.2 and @prisma/client@4.12.0 don"t match.
+This might lead to unexpected behavior.
+10:18:48 PM: Please make sure they have the same version.
+10:18:48 PM: > build
+10:18:48 PM: > nuxt build
+10:18:48 PM: [log] Nuxi 3.3.3
+10:18:48 PM: [log] Nuxt 3.3.3 with Nitro 2.3.3
+10:18:49 PM: [info] [nuxt:tailwindcss] Using default Tailwind CSS file from runtime/tailwind.css
+10:18:50 PM: [warn] Browserslist: caniuse-lite is outdated. Please run:
+10:18:50 PM:   npx update-browserslist-db@latest
+10:18:50 PM:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+10:18:50 PM: [info] Building client...
+10:18:50 PM: [info] vite v4.2.1 building for production...
+10:18:50 PM: [info] transforming...
+10:18:53 PM: [info] ✓ 848 modules transformed.
+10:18:54 PM: [info] rendering chunks...
+10:18:54 PM: [info] computing gzip size...
+10:18:54 PM: [info] .nuxt/dist/client/manifest.json                         5.14 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/AliExpress-logo.fa53110d.png   58.71 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/IconCSS.05fd33c5.css            0.26 kB │ gzip:  0.17 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/error-500.b63a96f5.css          2.02 kB │ gzip:  0.75 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/error-404.8bdbaeb8.css          3.70 kB │ gzip:  1.13 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/entry.94e05353.css             17.50 kB │ gzip:  4.28 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/auth.125b170f.js                0.15 kB │ gzip:  0.15 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/success.0b2cc288.js             0.72 kB │ gzip:  0.49 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/IconCSS.eaf75747.js             0.86 kB │ gzip:  0.52 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/error-component.1fe05fa4.js     1.12 kB │ gzip:  0.61 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/auth.503f6671.js                1.36 kB │ gzip:  0.71 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/orders.3c20cf4d.js              1.59 kB │ gzip:  0.92 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/error-500.e60bcbb2.js           1.88 kB │ gzip:  0.99 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/error-404.168bbec9.js           2.22 kB │ gzip:  1.15 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/index.ad132f52.js               2.29 kB │ gzip:  1.18 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/_id_.eca7961a.js                3.28 kB │ gzip:  1.52 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/address.0683b228.js             4.45 kB │ gzip:  1.83 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/shoppingcart.14d31f4e.js        5.30 kB │ gzip:  2.15 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/checkout.38214bca.js            5.76 kB │ gzip:  2.46 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/MainLayout.885e52db.js         21.17 kB │ gzip:  8.73 kB
+10:18:54 PM: [info] .nuxt/dist/client/_nuxt/entry.9ef21925.js             272.44 kB │ gzip: 90.81 kB
+10:18:54 PM: [info] ✓ built in 3.49s
+10:18:54 PM: [success] Client built in 3498ms
+10:18:54 PM: [info] Building server...
+10:18:54 PM: [info] vite v4.2.1 building SSR bundle for production...
+10:18:54 PM: [info] transforming...
+10:18:55 PM: [info] ✓ 114 modules transformed.
+10:18:55 PM: [info] rendering chunks...
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/Icon-styles.95b220bc.mjs             0.08 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/IconCSS-styles.c7f1e3fc.mjs          0.08 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-404-styles.88dd483b.mjs        0.08 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-500-styles.f7652148.mjs        0.08 kB
+10:18:55 PM: [info] .nuxt/dist/server/styles.mjs                                 0.60 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/Icon-styles-1.mjs-3cea5302.js        0.26 kB │ map:   0.11 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/IconCSS-styles-1.mjs-99d83ddf.js     0.46 kB │ map:   0.11 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/auth-afbc4a05.js                     0.83 kB │ map:   0.49 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/island-renderer-04e08252.js          1.24 kB │ map:   1.32 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-component-9ebfaaa7.js          2.01 kB │ map:   2.65 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-500-styles-1.mjs-cf69c072.js   2.23 kB │ map:   0.12 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-dev-styles-1.mjs-a4b72ba9.js   2.59 kB │ map:   0.12 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/IconCSS-1ca78a70.js                  2.66 kB │ map:   2.17 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/auth-49883d3c.js                     2.86 kB │ map:   2.65 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/success-639156f4.js                  2.90 kB │ map:   1.05 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-500-e7d26d10.js                3.25 kB │ map:   3.79 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-404-styles-1.mjs-00a5a0fd.js   3.93 kB │ map:   0.12 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/error-404-a248ede0.js                4.10 kB │ map:   5.83 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/orders-df7beec3.js                   6.93 kB │ map:   2.60 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/index-482156f2.js                    7.98 kB │ map:   3.68 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/_id_-b538a8bb.js                    11.84 kB │ map:   6.34 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/address-a5e5f01f.js                 13.33 kB │ map:  12.62 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/shoppingcart-6f4e4dfa.js            14.58 kB │ map:  10.67 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/css-styles-1.mjs-ff8d0515.js        17.81 kB │ map:   0.11 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/checkout-e99d0414.js                18.94 kB │ map:  13.12 kB
+10:18:55 PM: [info] .nuxt/dist/server/_nuxt/MainLayout-d6f9deaa.js              19.38 kB │ map:  23.84 kB
+10:18:55 PM: [info] .nuxt/dist/server/server.mjs                                88.71 kB │ map: 210.72 kB
+10:18:55 PM: [info] ✓ built in 1.46s
+10:18:55 PM: [success] Server built in 1471ms
+10:18:55 PM: [success] [nitro] Generated public dist
+10:18:55 PM: [info] [nitro] Building Nitro Server (preset: `netlify`)
+10:18:59 PM: [success] [nitro] Nitro server built
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_.mjs (358 B) (248 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_.mjs.map (421 B) (234 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_2.mjs (494 B) (300 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_2.mjs.map (585 B) (272 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_3.mjs (368 B) (252 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_3.mjs.map (440 B) (239 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_4.mjs (454 B) (294 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_4.mjs.map (522 B) (255 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_5.mjs (559 B) (324 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/_id_5.mjs.map (672 B) (274 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/add-address.mjs (552 B) (302 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/add-address.mjs.map (616 B) (254 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/_id_-b538a8bb.mjs (12 kB) (2.65 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/_id_-b538a8bb.mjs.map (8.9 kB) (2 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/address-a5e5f01f.mjs (13.4 kB) (2.87 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/address-a5e5f01f.mjs.map (12.2 kB) (2.19 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/auth-49883d3c.mjs (3.07 kB) (1.22 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/auth-49883d3c.mjs.map (1.84 kB) (518 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/auth-afbc4a05.mjs (936 B) (475 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/auth-afbc4a05.mjs.map (408 B) (253 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/checkout-e99d0414.mjs (19.1 kB) (3.88 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/checkout-e99d0414.mjs.map (14.2 kB) (3.01 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-404-a248ede0.mjs (4.14 kB) (1.75 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-404-a248ede0.mjs.map (2.34 kB) (790 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-404-styles.88dd483b.mjs (3.98 kB) (1.27 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-404-styles.88dd483b.mjs.map (326 B) (215 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-500-e7d26d10.mjs (3.29 kB) (1.46 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-500-e7d26d10.mjs.map (1.68 kB) (606 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-500-styles.f7652148.mjs (2.29 kB) (882 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-500-styles.f7652148.mjs.map (326 B) (213 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-component-9ebfaaa7.mjs (2.04 kB) (894 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/error-component-9ebfaaa7.mjs.map (2.35 kB) (801 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/Icon-styles.95b220bc.mjs (310 B) (214 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/Icon-styles.95b220bc.mjs.map (310 B) (212 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/IconCSS-1ca78a70.mjs (2.7 kB) (1.11 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/IconCSS-1ca78a70.mjs.map (2.52 kB) (826 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/IconCSS-styles.c7f1e3fc.mjs (516 B) (295 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/IconCSS-styles.c7f1e3fc.mjs.map (319 B) (214 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/index-482156f2.mjs (8.09 kB) (2.13 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/index-482156f2.mjs.map (6.13 kB) (1.61 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/island-renderer-04e08252.mjs (1.35 kB) (631 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/island-renderer-04e08252.mjs.map (870 B) (414 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/MainLayout-d6f9deaa.mjs (19.6 kB) (5.42 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/MainLayout-d6f9deaa.mjs.map (16.8 kB) (3.6 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/orders-df7beec3.mjs (7.04 kB) (1.86 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/orders-df7beec3.mjs.map (5.32 kB) (1.48 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/shoppingcart-6f4e4dfa.mjs (14.8 kB) (3.37 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/shoppingcart-6f4e4dfa.mjs.map (10.2 kB) (1.6 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/success-639156f4.mjs (3.01 kB) (1.11 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/_nuxt/success-639156f4.mjs.map (1.9 kB) (711 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/client.manifest.mjs (6.18 kB) (888 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/client.manifest.mjs.map (4.87 kB) (697 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/server.mjs (62 kB) (15.5 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/server.mjs.map (72.5 kB) (11 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/styles.mjs (668 B) (292 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/app/styles.mjs.map (503 B) (241 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/create-order.mjs (763 B) (368 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/create-order.mjs.map (893 B) (302 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/error-500.mjs (4.26 kB) (1.82 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/error-500.mjs.map (1.06 kB) (392 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/get-all-products.mjs (344 B) (223 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/get-all-products.mjs.map (346 B) (203 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/handlers/renderer.mjs (16.1 kB) (4.96 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/handlers/renderer.mjs.map (20.2 kB) (3.56 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/nitro/netlify.mjs (22.6 kB) (6.65 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/nitro/netlify.mjs.map (24.5 kB) (4.31 kB gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/paymentintent.mjs (475 B) (309 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/paymentintent.mjs.map (526 B) (234 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/rollup/_virtual_head-static.mjs (365 B) (254 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/chunks/rollup/_virtual_head-static.mjs.map (111 B) (112 B gzip)
+10:18:59 PM:   ├─ .netlify/functions-internal/server/package.json (2.25 kB) (807 B gzip)
+10:18:59 PM:   └─ .netlify/functions-internal/server/server.mjs (393 B) (241 B gzip)
+10:18:59 PM: Σ Total size: 5.43 MB (1.5 MB gzip)
+10:18:59 PM: ​
+10:18:59 PM: (build.command completed in 12.2s)
+10:18:59 PM: ​
+10:18:59 PM: Functions bundling                                            
+10:18:59 PM: ────────────────────────────────────────────────────────────────
+10:18:59 PM: ​
+10:18:59 PM: Packaging Functions from .netlify/functions-internal directory:
+10:18:59 PM:  - server/server.mjs
+10:18:59 PM: ​
+10:19:04 PM: Starting post processing
+10:19:04 PM: Skipping HTML post processing
+10:19:04 PM: Post processing - header rules
+10:19:04 PM: Post processing - redirect rules
+10:19:04 PM: Post processing done
+10:19:04 PM: Section completed: postprocessing
+10:19:04 PM: Site is live ✨
+10:19:03 PM: ​
+10:19:03 PM: (Functions bundling completed in 4.4s)
+10:19:03 PM: ​
+10:19:03 PM: Deploy site                                                   
+10:19:03 PM: ────────────────────────────────────────────────────────────────
+10:19:03 PM: ​
+10:19:03 PM: Starting to deploy site from ".nuxt/dist"
+10:19:03 PM: Calculating files to upload
+10:19:04 PM: 0 new files to upload
+10:19:04 PM: 0 new functions to upload
+10:19:04 PM: Section completed: deploying
+10:19:04 PM: Site deploy was successfully initiated
+10:19:04 PM: ​
+10:19:04 PM: (Deploy site completed in 467ms)
+10:19:04 PM: ​
+10:19:04 PM: Netlify Build Complete                                        
+10:19:04 PM: ────────────────────────────────────────────────────────────────
+10:19:04 PM: ​
+10:19:04 PM: (Netlify Build completed in 17.1s)
+10:19:05 PM: Caching artifacts
+10:19:05 PM: Started saving node modules
+10:19:05 PM: Finished saving node modules
+10:19:05 PM: Started saving build plugins
+10:19:05 PM: Finished saving build plugins
+10:19:05 PM: Started saving corepack cache
+10:19:05 PM: Finished saving corepack cache
+10:19:05 PM: Started saving pip cache
+10:19:05 PM: Finished saving pip cache
+10:19:05 PM: Started saving emacs cask dependencies
+10:19:05 PM: Finished saving emacs cask dependencies
+10:19:05 PM: Started saving maven dependencies
+10:19:05 PM: Finished saving maven dependencies
+10:19:05 PM: Started saving boot dependencies
+10:19:05 PM: Finished saving boot dependencies
+10:19:05 PM: Started saving rust rustup cache
+10:19:05 PM: Finished saving rust rustup cache
+10:19:05 PM: Started saving go dependencies
+10:19:05 PM: Finished saving go dependencies
+10:19:06 PM: Build script success
+10:19:06 PM: Section completed: building
+10:19:07 PM: Uploading Cache of size 180.7MB
+10:19:08 PM: Section completed: cleanup
+10:19:08 PM: Finished processing build request in 42.582s
